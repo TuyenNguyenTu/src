@@ -8,8 +8,8 @@ namespace Project.SoftwareArchitecture.Authorization
     {
         public override void SetPermissions(IPermissionDefinitionContext context)
         {
-            context.CreatePermission(PermissionNames.Pages_Administrators, L("Pages.Administrators"));
-            context.CreatePermission(PermissionNames.Pages_QuanLys, L("Page.QuanLys"));
+            context.CreatePermission(PermissionNames.Pages_Administrators, L("Administrators"));
+            context.CreatePermission(PermissionNames.Pages_QuanLys, L("QuanLys"));
             context.CreatePermission(PermissionNames.Pages_Users, L("Users"));
             context.CreatePermission(PermissionNames.Pages_Roles, L("Roles"));
             context.CreatePermission(PermissionNames.Pages_Doctors, L("Doctors"));
