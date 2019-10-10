@@ -217,8 +217,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntityFramework\Employee.cs" />
+    <Compile Include="EntityFramework\Person.cs" />
     <Compile Include="EntityFramework\SoftwareArchitectureDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\SoftwareArchitectureRepositoryBase.cs" />
+    <Compile Include="Migrations\201910101424276_InitialCreateTuyen.cs" />
+    <Compile Include="Migrations\201910101424276_InitialCreateTuyen.Designer.cs">
+      <DependentUpon>201910101424276_InitialCreateTuyen.cs</DependentUpon>
+    </Compile>
     <Compile Include="SoftwareArchitectureDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
@@ -290,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907220636309_Upgrated_To_ABP_4_8_0.resx">
       <DependentUpon>201907220636309_Upgrated_To_ABP_4_8_0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910101424276_InitialCreateTuyen.resx">
+      <DependentUpon>201910101424276_InitialCreateTuyen.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

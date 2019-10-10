@@ -16,6 +16,8 @@ namespace Project.SoftwareArchitecture.EntityFramework
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
+         public virtual IDbSet<Employee> Employees { set; get; }
+        public virtual IDbSet<Person> People { set; get; }
         public SoftwareArchitectureDbContext()
             : base("Default")
         {

@@ -29603,3 +29603,4 @@ DEBUG 2019-10-08 09:26:29,929 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2019-10-08 09:26:29,937 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: af5a0e9a-606a-461b-acb9-9a295f43c04e
 WARN  2019-10-08 09:26:30,276 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'SoftwareArchitecture'!
 DEBUG 2019-10-08 09:27:00,900 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c185ca4f-fbf7-43fd-b2ca-3792c7fcff05
+DEBUG 2019-10-08 09:31:05,615 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: af5a0e9a-606a-461b-acb9-9a295f43c04e
