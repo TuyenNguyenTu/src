@@ -199,6 +199,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="SoftwareArchitectureConsts.cs" />
     <Compile Include="SoftwareArchitectureCoreModule.cs" />
     <Compile Include="AppVersionHelper.cs" />

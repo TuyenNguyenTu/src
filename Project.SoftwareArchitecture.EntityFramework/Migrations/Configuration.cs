@@ -20,6 +20,7 @@ namespace Project.SoftwareArchitecture.Migrations
         protected override void Seed(SoftwareArchitecture.EntityFramework.SoftwareArchitectureDbContext context)
         {
             context.DisableAllFilters();
+            // add du lieu vao database
             context.People.AddOrUpdate(
                 p => p.Name,
                 new Person { Id = 1, Name = "Tự Tuyên", Age = 21 },
