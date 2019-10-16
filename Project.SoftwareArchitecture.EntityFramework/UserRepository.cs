@@ -1,4 +1,5 @@
-﻿using Abp.Data;
+﻿using Abp.Application.Services.Dto;
+using Abp.Data;
 using Abp.EntityFramework;
 using Project.SoftwareArchitecture.Authorization.Users;
 using Project.SoftwareArchitecture.EntityFramework;
@@ -10,7 +11,9 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+
 
 namespace Project.SoftwareArchitecture
 {
@@ -64,7 +67,7 @@ namespace Project.SoftwareArchitecture
         public async Task<List<string>> GetUserAccount()
         {
             EnsureConnectionOpen();
-            using (var command = CreateCommand("sp_GetUser", CommandType.StoredProcedure))
+            using (var command = CreateCommand("sp_GetPeople", CommandType.StoredProcedure))
             {
                 using (var dataReader = await command.ExecuteReaderAsync())
                 {
@@ -72,14 +75,42 @@ namespace Project.SoftwareArchitecture
 
                     while (dataReader.Read())
                     {
-                        result.Add(dataReader["UserName"].ToString());
+                        result.Add(dataReader["Name"].ToString());
                     }
 
                     return result;
                 }
             }
         }
+        /// <summary>
+        /// DELETE PEOPLE BY ID
+        /// </summary>
+        /// <param name="input"> ID</param>
+        /// <returns></returns>
+        public async Task DeletePeople(EntityDto input)
+        {
+            await Context.Database.ExecuteSqlCommandAsync(
+                "EXEC sp_DeletePeopleByID @id",
+                default(CancellationToken),
+                new SqlParameter("id", input.Id)
+            );
+        }
 
+        /// <summary>
+        /// Update
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public async Task UpdateEmail(UpdateUserDto input)
+        {
+            await Context.Database.ExecuteSqlCommandAsync(
+                "EXEC sp_UpdatePeopleByID  @id,@Age,@Name",
+                default(CancellationToken),
+                new SqlParameter("id", input.Id),
+                new SqlParameter("Age", input.Age),
+                new SqlParameter(""
+            );
+        }
 
     }
 }

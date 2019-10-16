@@ -211,6 +211,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Users\IPersonAppService.cs" />
+    <Compile Include="PersonAppService.cs" />
     <Compile Include="SoftwareArchitectureApplicationModule.cs" />
     <Compile Include="SoftwareArchitectureAppServiceBase.cs" />
     <Compile Include="Authorization\Accounts\AccountAppService.cs" />
@@ -235,7 +237,10 @@
     <Compile Include="Roles\Dto\PermissionDto.cs" />
     <Compile Include="Roles\Dto\RoleDto.cs" />
     <Compile Include="Roles\IRoleAppService.cs" />
+    <Compile Include="Users\Dto\CreatePersonDto.cs" />
     <Compile Include="Users\Dto\CreateUserDto.cs" />
+    <Compile Include="Users\Dto\PersonDto.cs" />
+    <Compile Include="Users\Dto\UpdatePeopleDto.cs" />
     <Compile Include="Users\Dto\UpdateUserDto.cs" />
     <Compile Include="Users\Dto\UserDto.cs" />
     <Compile Include="Users\IUserAppService.cs" />
@@ -255,6 +260,10 @@
     <ProjectReference Include="..\Project.SoftwareArchitecture.Core\Project.SoftwareArchitecture.Core.csproj">
       <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
       <Name>Project.SoftwareArchitecture.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Project.SoftwareArchitecture.EntityFramework\Project.SoftwareArchitecture.EntityFramework.csproj">
+      <Project>{3979F157-DEB0-4878-AB1D-4CEF6B5A1300}</Project>
+      <Name>Project.SoftwareArchitecture.EntityFramework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
