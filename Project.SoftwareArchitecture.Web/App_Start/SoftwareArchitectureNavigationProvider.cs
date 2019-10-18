@@ -29,7 +29,15 @@ namespace Project.SoftwareArchitecture.Web
                         L("Tenants"),
                         url: "#tenants",
                         icon: "fa fa-globe",
-                        requiredPermissionName: PermissionNames.Pages_Tenants
+                        requiredPermissionName: PermissionNames.Pages_Administrators
+                        )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Tenants",
+                        L("Tenants"),
+                        url: "#tenants",
+                        icon: "fa fa-globe",
+                        requiredPermissionName: PermissionNames.Pages_Administrators
                         )
                 ).AddItem(
                     new MenuItemDefinition(
@@ -37,15 +45,31 @@ namespace Project.SoftwareArchitecture.Web
                         L("Users"),
                         url: "#users",
                         icon: "fa fa-users",
-                        requiredPermissionName: PermissionNames.Pages_Users
-                        )
+                        requiredPermissionName: PermissionNames.Pages_Administrators
+                        ).AddItem(
+                    new MenuItemDefinition(
+                        "Roles",
+                        L("Roles"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Administrators
+                    ).AddItem(
+                    new MenuItemDefinition(
+                        "Roles",
+                        L("Roles"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Administrators
+                    )
+                )
+                )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Roles",
                         L("Roles"),
                         url: "#users",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Roles
+                        requiredPermissionName: PermissionNames.Pages_Administrators
                     )
                 )
                 .AddItem(

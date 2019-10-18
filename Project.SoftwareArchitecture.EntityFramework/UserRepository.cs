@@ -96,21 +96,21 @@ namespace Project.SoftwareArchitecture
             );
         }
 
-        /// <summary>
-        /// Update
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        public async Task UpdateEmail(UpdateUserDto input)
-        {
-            await Context.Database.ExecuteSqlCommandAsync(
-                "EXEC sp_UpdatePeopleByID  @id,@Age,@Name",
-                default(CancellationToken),
-                new SqlParameter("id", input.Id),
-                new SqlParameter("Age", input.Age),
-                new SqlParameter(""
-            );
-        }
+        ///// <summary>
+        ///// Update
+        ///// </summary>
+        ///// <param name="input"></param>
+        ///// <returns></returns>
+        //public async Task UpdateEmail(UpdateUserDto input)
+        //{
+        //    await Context.Database.ExecuteSqlCommandAsync(
+        //        "EXEC sp_UpdatePeopleByID  @id,@Age,@Name",
+        //        default(CancellationToken),
+        //        new SqlParameter("id", input.Id),
+        //        new SqlParameter("Age", input.Age),
+        //        new SqlParameter(""
+        //    );
+        //}
 
     }
 }

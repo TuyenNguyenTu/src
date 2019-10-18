@@ -26,29 +26,39 @@
                         url: '/users',
                         templateUrl: '/App/Main/views/users/index.cshtml',
                         menu: 'Users' //Matches to name of 'Users' menu in SoftwareArchitectureNavigationProvider
-                    });
-                $urlRouterProvider.otherwise('/users');
-            }
-
-            if (abp.auth.hasPermission('Pages.Roles')) {
-                $stateProvider
+                    })
+                    .state('tenants', {
+                        url: '/tenants',
+                        templateUrl: '/App/Main/views/tenants/index.cshtml',
+                        menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    })
                     .state('roles', {
                         url: '/roles',
                         templateUrl: '/App/Main/views/roles/index.cshtml',
                         menu: 'Roles' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
                     });
-                $urlRouterProvider.otherwise('/roles');
+                $urlRouterProvider.otherwise('/users');
             }
 
-            if (abp.auth.hasPermission('Pages.Tenants')) {
-                $stateProvider
-                    .state('tenants', {
-                        url: '/tenants',
-                        templateUrl: '/App/Main/views/tenants/index.cshtml',
-                        menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
-                    });
-                $urlRouterProvider.otherwise('/tenants');
-            }
+            //if (abp.auth.hasPermission('Pages.Roles')) {
+            //    $stateProvider
+            //        .state('roles', {
+            //            url: '/roles',
+            //            templateUrl: '/App/Main/views/roles/index.cshtml',
+            //            menu: 'Roles' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+            //        });
+            //    $urlRouterProvider.otherwise('/roles');
+            //}
+
+            //if (abp.auth.hasPermission('Pages.Tenants')) {
+            //    $stateProvider
+            //        .state('tenants', {
+            //            url: '/tenants',
+            //            templateUrl: '/App/Main/views/tenants/index.cshtml',
+            //            menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+            //        });
+            //    $urlRouterProvider.otherwise('/tenants');
+            //}
 
             $stateProvider
                 .state('home', {

@@ -8,10 +8,19 @@
             vm.menuItems = [
                 createMenuItem(App.localize("HomePage"), "", "home", "home"),
 
-                createMenuItem(App.localize("Tenants"), "Pages.Tenants", "business", "tenants"),
-                createMenuItem(App.localize("Users"), "Pages.Users", "people", "users"),
-                createMenuItem(App.localize("Roles"), "Pages.Roles", "local_offer", "roles"),
+                //createMenuItem(App.localize("Tenants"), "Pages.Administrators", "business", "tenants"),
+                createMenuItem(App.localize("Tenants"), "Pages.Administrators", "business", "tenants"),
+                createMenuItem(App.localize("Users"), "Pages.Administrators", "people", "users"),
+                createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
                 createMenuItem(App.localize("About"), "", "info", "about"),
+
+                createMenuItem(App.localize("Roles"), "Pages.Administrators", "Menu", "", [
+                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
+                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
+                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
+                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
+                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles")
+                ]),
 
                 createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [
                     createMenuItem("ASP.NET Boilerplate", "", "", "", [
