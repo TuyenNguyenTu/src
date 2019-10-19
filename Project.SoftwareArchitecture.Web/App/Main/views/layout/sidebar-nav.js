@@ -14,12 +14,23 @@
                 createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
                 createMenuItem(App.localize("About"), "", "info", "about"),
 
-                createMenuItem(App.localize("Roles"), "Pages.Administrators", "Menu", "", [
-                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
-                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
-                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
-                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles"),
-                    createMenuItem(App.localize("Roles"), "Pages.Administrators", "local_offer", "roles")
+                ///Menu Tiep Nhan
+                createMenuItem(App.localize("DangKyKham"), "Pages.TiepBenhNhans", "menu", "", [
+                    createMenuItem(App.localize("QLBenhNhan"), "Pages.TiepBenhNhans", "local_offer", "ql-benh-nhan"),
+                    createMenuItem(App.localize("QLPhieuDangKy"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-dang-ky"),
+                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
+                ]),
+                //Menu Thu Ngan
+                createMenuItem(App.localize("DangKyKham"), "Pages.TiepBenhNhans", "menu", "", [
+                    createMenuItem(App.localize("QLBenhNhan"), "Pages.TiepBenhNhans", "local_offer", "ql-benh-nhan"),
+                    createMenuItem(App.localize("QLPhieuDangKy"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-dang-ky"),
+                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
+                ]),
+                //Menu bac Si
+                createMenuItem(App.localize("DangKyKham"), "Pages.TiepBenhNhans", "menu", "", [
+                    createMenuItem(App.localize("QLBenhNhan"), "Pages.TiepBenhNhans", "local_offer", "ql-benh-nhan"),
+                    createMenuItem(App.localize("QLPhieuDangKy"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-dang-ky"),
+                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
                 ]),
 
                 createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [

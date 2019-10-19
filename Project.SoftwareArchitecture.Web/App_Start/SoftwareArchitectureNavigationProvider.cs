@@ -32,37 +32,38 @@ namespace Project.SoftwareArchitecture.Web
                         requiredPermissionName: PermissionNames.Pages_Administrators
                         )
                 ).AddItem(
-                    new MenuItemDefinition(
+                new MenuItemDefinition(
                         "Tenants",
                         L("Tenants"),
                         url: "#tenants",
                         icon: "fa fa-globe",
                         requiredPermissionName: PermissionNames.Pages_Administrators
                         )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        "Users",
-                        L("Users"),
-                        url: "#users",
+                 ).AddItem(new MenuItemDefinition(
+                        "DangKyKham",
+                        L("DangKyKham"),
+                        url: "#dangkykham",
                         icon: "fa fa-users",
-                        requiredPermissionName: PermissionNames.Pages_Administrators
-                        ).AddItem(
-                    new MenuItemDefinition(
-                        "Roles",
-                        L("Roles"),
+                        requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
+                    ).AddItem(new MenuItemDefinition(
+                        "QLBenhNhan",
+                        L("QLBenhNhan"),
                         url: "#users",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Administrators
-                    ).AddItem(
-                    new MenuItemDefinition(
-                        "Roles",
-                        L("Roles"),
+                        requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
+                    ).AddItem(new MenuItemDefinition(
+                        "QLPhieuDangKy",
+                        L("QLPhieuDangKy"),
                         url: "#users",
                         icon: "fa fa-tag",
-                        requiredPermissionName: PermissionNames.Pages_Administrators
-                    )
-                )
-                )
+                        requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
+                    ).AddItem(new MenuItemDefinition(
+                        "QLPhieuSuDungDichVu",
+                        L("QLPhieuSuDungDichVu"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
+                    ))))
                 ).AddItem(
                     new MenuItemDefinition(
                         "Roles",

@@ -49,6 +49,25 @@
             //        });
             //    $urlRouterProvider.otherwise('/roles');
             //}
+            if (abp.auth.hasPermission('Pages.TiepBenhNhans')) {
+                $stateProvider
+                    .state('ql-benh-nhan', {
+                        url: '/ql-benh-nhan',
+                        templateUrl: '/App/Main/views/Test.cshtml',
+                        menu: 'Users' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    })
+                    .state('ql-phieu-dang-ky', {
+                        url: '/ql-phieu-dang-ky',
+                        templateUrl: '/App/Main/views/Test.cshtml',
+                        menu: 'Roles' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    })
+                    .state('ql-phieu-su-dung-dich-vu', {
+                        url: '/ql-phieu-su-dung-dich-vu',
+                        templateUrl: '/App/Main/views/Test.cshtml',
+                        menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    });
+                $urlRouterProvider.otherwise('/about');
+            }
 
             //if (abp.auth.hasPermission('Pages.Tenants')) {
             //    $stateProvider
