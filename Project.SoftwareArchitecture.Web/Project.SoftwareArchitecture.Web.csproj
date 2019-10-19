@@ -2731,6 +2731,8 @@
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
     <Content Include="App\Main\views\Test.cshtml" />
+    <Content Include="App\Main\views\cashiers\index.cshtml" />
+    <Content Include="App\Main\views\doctors\index.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

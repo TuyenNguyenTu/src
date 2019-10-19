@@ -21,16 +21,13 @@
                     createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
                 ]),
                 //Menu Thu Ngan
-                createMenuItem(App.localize("DangKyKham"), "Pages.TiepBenhNhans", "menu", "", [
-                    createMenuItem(App.localize("QLBenhNhan"), "Pages.TiepBenhNhans", "local_offer", "ql-benh-nhan"),
-                    createMenuItem(App.localize("QLPhieuDangKy"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-dang-ky"),
-                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
+                createMenuItem(App.localize("Nộp phí"), "Pages.Cashiers", "menu", "", [
+                    createMenuItem(App.localize("QLBienLai"), "Pages.Cashiers", "local_offer", "ql-bien-lai")
                 ]),
                 //Menu bac Si
-                createMenuItem(App.localize("DangKyKham"), "Pages.TiepBenhNhans", "menu", "", [
-                    createMenuItem(App.localize("QLBenhNhan"), "Pages.TiepBenhNhans", "local_offer", "ql-benh-nhan"),
-                    createMenuItem(App.localize("QLPhieuDangKy"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-dang-ky"),
-                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
+                createMenuItem(App.localize("Khám Bệnh"), "Pages.Doctors", "menu", "", [
+                    createMenuItem(App.localize("QLPhieuKhamBenh"), "Pages.Doctors", "local_offer", "ql-phieu-kham-benh"),
+                    createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.Doctors", "local_offer", "ql-phieu-su-dung-dich-vu")
                 ]),
 
                 createMenuItem(App.localize("MultiLevelMenu"), "", "menu", "", [

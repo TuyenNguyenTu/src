@@ -49,25 +49,56 @@
             //        });
             //    $urlRouterProvider.otherwise('/roles');
             //}
+
+
+            //FOR Menu Tiep benh nhan
             if (abp.auth.hasPermission('Pages.TiepBenhNhans')) {
                 $stateProvider
                     .state('ql-benh-nhan', {
                         url: '/ql-benh-nhan',
                         templateUrl: '/App/Main/views/Test.cshtml',
-                        menu: 'Users' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLBenhNhan' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
                     })
                     .state('ql-phieu-dang-ky', {
                         url: '/ql-phieu-dang-ky',
                         templateUrl: '/App/Main/views/Test.cshtml',
-                        menu: 'Roles' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLPhieuDangKy' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
                     })
                     .state('ql-phieu-su-dung-dich-vu', {
                         url: '/ql-phieu-su-dung-dich-vu',
                         templateUrl: '/App/Main/views/Test.cshtml',
-                        menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLPhieuSuDungDichVu' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
                     });
                 $urlRouterProvider.otherwise('/about');
             }
+
+            ///FOR MENU Cashier
+            if (abp.auth.hasPermission('Pages.Cashiers')) {
+                $stateProvider
+                    .state('ql-bien-lai', {
+                        url: '/ql-bien-lai',
+                        templateUrl: '/App/Main/views/cashiers/Index.cshtml',
+                        menu: 'QLBienLai' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    });
+                $urlRouterProvider.otherwise('/about');
+            }
+
+            // FOR MENU DOCTOR
+            if (abp.auth.hasPermission('Pages.Doctors')) {
+                $stateProvider
+                    .state('ql-phieu-kham-benh', {
+                        url: '/ql-phieu-kham-benh',
+                        templateUrl: '/App/Main/views/doctors/index.cshtml',
+                        menu: 'QLPhieuKhamBenh' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    })
+                    .state('ql-phieu-su-dung-dich-vu', {
+                        url: '/ql-phieu-su-dung-dich-vu',
+                        templateUrl: '/App/Main/views/doctors/index.cshtml',
+                        menu: 'QLPhieuSuDungDichVu' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    });
+                $urlRouterProvider.otherwise('/about');
+            }
+
 
             //if (abp.auth.hasPermission('Pages.Tenants')) {
             //    $stateProvider

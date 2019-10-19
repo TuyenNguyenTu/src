@@ -39,32 +39,71 @@ namespace Project.SoftwareArchitecture.Web
                         icon: "fa fa-globe",
                         requiredPermissionName: PermissionNames.Pages_Administrators
                         )
-                 ).AddItem(new MenuItemDefinition(
+                 )
+                //Menu Tiep nhan
+                .AddItem(new MenuItemDefinition(
                         "DangKyKham",
                         L("DangKyKham"),
-                        url: "#dangkykham",
+                       // url: "#dangkykham",
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
                     ).AddItem(new MenuItemDefinition(
                         "QLBenhNhan",
                         L("QLBenhNhan"),
-                        url: "#users",
+                       // url: "#users",
                         icon: "fa fa-tag",
                         requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
                     ).AddItem(new MenuItemDefinition(
                         "QLPhieuDangKy",
                         L("QLPhieuDangKy"),
-                        url: "#users",
+                        //url: "#users",
                         icon: "fa fa-tag",
                         requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
                     ).AddItem(new MenuItemDefinition(
                         "QLPhieuSuDungDichVu",
                         L("QLPhieuSuDungDichVu"),
-                        url: "#users",
+                       // url: "#users",
                         icon: "fa fa-tag",
                         requiredPermissionName: PermissionNames.Pages_TiepBenhNhans
                     ))))
-                ).AddItem(
+                )
+                ///Menu Thu Ngan
+                .AddItem(new MenuItemDefinition(
+                        "NopPhi",
+                        L("NopPhi"),
+                      //  url: "#dangkykham",
+                        icon: "fa fa-users",
+                        requiredPermissionName: PermissionNames.Pages_Cashiers
+                    ).AddItem(new MenuItemDefinition(
+                        "QLBienLai",
+                        L("QLBienLai"),
+                        //url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Cashiers
+                    ))
+                )
+                //Menu Bac Si
+                .AddItem(new MenuItemDefinition(
+                        "KhamBenh",
+                        L("KhamBenh"),
+                       // url: "#dangkykham",
+                        icon: "fa fa-users",
+                        requiredPermissionName: PermissionNames.Pages_Doctors
+                    ).AddItem(new MenuItemDefinition(
+                        "QLPhieuSuDungDichVu",
+                        L("QLPhieuSuDungDichVu"),
+                        // url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Doctors
+                    ).AddItem(new MenuItemDefinition(
+                        "QLPhieuKhamBenh",
+                        L("QLPhieuKhamBenh"),
+                        //url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Doctors
+                    )))
+                )
+                .AddItem(
                     new MenuItemDefinition(
                         "Roles",
                         L("Roles"),
