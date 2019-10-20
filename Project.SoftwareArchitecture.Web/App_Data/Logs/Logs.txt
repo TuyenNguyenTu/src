@@ -30704,3 +30704,304 @@ WARN  2019-10-20 21:26:05,953 [7    ] naries.DictionaryBasedLocalizationSource -
 WARN  2019-10-20 21:26:05,956 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
 DEBUG 2019-10-20 21:26:07,549 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"af6f9614-4789-4308-8a26-33702a8ca11a","IpAddress":"192.168.1.43","TenantId":null,"UserId":4,"ConnectTime":"2019-10-20T21:26:07.5444351+07:00","Properties":{}}
 DEBUG 2019-10-20 21:26:07,576 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: af6f9614-4789-4308-8a26-33702a8ca11a
+WARN  2019-10-20 21:26:54,733 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,736 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,738 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,740 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,740 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,742 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,743 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,745 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,747 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:26:54,750 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:26:54,826 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc06d7dc-12f2-44f5-8eab-76dd81f1db28","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-20T21:26:54.8267362+07:00","Properties":{}}
+DEBUG 2019-10-20 21:26:54,835 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc06d7dc-12f2-44f5-8eab-76dd81f1db28
+DEBUG 2019-10-20 21:27:22,511 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: af6f9614-4789-4308-8a26-33702a8ca11a
+DEBUG 2019-10-20 21:30:03,711 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc06d7dc-12f2-44f5-8eab-76dd81f1db28
+WARN  2019-10-20 21:30:10,381 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,384 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,386 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,389 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,390 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,392 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,392 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,395 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,400 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:10,403 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:16,730 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:16,734 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:16,737 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:30:16,740 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:30:17,853 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f685c0b8-7b46-4e2e-8db9-3a77210f58b8","IpAddress":"192.168.1.43","TenantId":null,"UserId":4,"ConnectTime":"2019-10-20T21:30:17.8538153+07:00","Properties":{}}
+DEBUG 2019-10-20 21:30:17,857 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f685c0b8-7b46-4e2e-8db9-3a77210f58b8
+DEBUG 2019-10-20 21:32:28,274 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-20 21:32:28,847 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-10-20 21:32:28,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.Web.SoftwareArchitectureWebModule, Project.SoftwareArchitecture.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.SoftwareArchitectureDataModule, Project.SoftwareArchitecture.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.SoftwareArchitectureCoreModule, Project.SoftwareArchitecture.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.SoftwareArchitectureApplicationModule, Project.SoftwareArchitecture.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.Api.SoftwareArchitectureWebApiModule, Project.SoftwareArchitecture.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:28,860 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-10-20 21:32:29,383 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:32:29,383 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:32:29,383 [1    ] o.Configuration.LanguageManagementConfig - Converted SoftwareArchitecture (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:32:29,383 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:32:29,730 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.SoftwareArchitecture.EntityFramework.SoftwareArchitectureDbContext, Project.SoftwareArchitecture.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:32:30,392 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-20 21:32:30,450 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-20 21:32:30,461 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-20 21:32:30,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SoftwareArchitecture
+DEBUG 2019-10-20 21:32:30,475 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-20 21:32:30,549 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-20 21:32:30,605 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-10-20 21:32:30,605 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-20 21:32:30,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-20 21:32:30,610 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.CreatePersonDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.CreateUserDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.PersonDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.UpdatePeopleDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.UpdateUserDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.UserDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Roles.Dto.PermissionDto
+DEBUG 2019-10-20 21:32:30,611 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-20 21:32:30,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-10-20 21:32:30,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-20 21:32:30,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-10-20 21:32:30,612 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-10-20 21:32:32,084 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-10-20 21:32:32,085 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-10-20 21:32:32,086 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-10-20 21:32:32,086 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-10-20 21:32:32,087 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-10-20 21:32:32,088 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2019-10-20 21:32:44,591 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:32:44,594 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:32:44,597 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:32:44,599 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,380 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,386 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,389 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,391 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,391 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,394 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,394 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,398 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,400 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:00,402 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:33:01,608 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3b1867f0-8e90-4749-9cd5-90370d93cd05","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-20T21:33:01.6033802+07:00","Properties":{}}
+DEBUG 2019-10-20 21:33:01,641 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3b1867f0-8e90-4749-9cd5-90370d93cd05
+DEBUG 2019-10-20 21:33:08,213 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3b1867f0-8e90-4749-9cd5-90370d93cd05
+WARN  2019-10-20 21:33:08,234 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,237 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,240 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,242 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,243 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,246 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,246 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,251 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,253 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:08,256 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:18,867 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:18,869 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:33:19,354 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"bf5b5101-0095-456e-abda-0e746fcd2565","IpAddress":"192.168.1.43","TenantId":null,"UserId":3,"ConnectTime":"2019-10-20T21:33:19.3548812+07:00","Properties":{}}
+DEBUG 2019-10-20 21:33:19,360 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: bf5b5101-0095-456e-abda-0e746fcd2565
+DEBUG 2019-10-20 21:33:24,296 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: bf5b5101-0095-456e-abda-0e746fcd2565
+WARN  2019-10-20 21:33:24,310 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:24,312 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:33,348 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:33,351 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:33,353 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:33:33,356 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:33:34,519 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4fa28439-bf08-4086-98a5-ac97165720ce","IpAddress":"192.168.1.43","TenantId":null,"UserId":4,"ConnectTime":"2019-10-20T21:33:34.5196566+07:00","Properties":{}}
+DEBUG 2019-10-20 21:33:34,528 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4fa28439-bf08-4086-98a5-ac97165720ce
+DEBUG 2019-10-20 21:33:47,299 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4fa28439-bf08-4086-98a5-ac97165720ce
+WARN  2019-10-20 21:36:10,720 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:10,722 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:10,736 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:10,738 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:22,427 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:22,429 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:22,432 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:22,434 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:36:23,509 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aa1b1adb-c205-4628-bb02-d6f76bee7841","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:36:23.5095409+07:00","Properties":{}}
+DEBUG 2019-10-20 21:36:23,522 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aa1b1adb-c205-4628-bb02-d6f76bee7841
+DEBUG 2019-10-20 21:36:55,908 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: aa1b1adb-c205-4628-bb02-d6f76bee7841
+WARN  2019-10-20 21:36:55,926 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:55,929 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:55,932 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:36:55,935 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:36:56,302 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f24cddc4-513c-4ffb-9680-83fd23d54a35","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:36:56.3028994+07:00","Properties":{}}
+DEBUG 2019-10-20 21:36:56,306 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f24cddc4-513c-4ffb-9680-83fd23d54a35
+WARN  2019-10-20 21:37:30,460 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:37:30,463 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:37:30,466 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:37:30,468 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:37:30,798 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"765c0771-77f7-43a8-82ac-5b302a1e2e3f","IpAddress":"192.168.1.43","TenantId":null,"UserId":4,"ConnectTime":"2019-10-20T21:37:30.798763+07:00","Properties":{}}
+DEBUG 2019-10-20 21:37:30,803 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 765c0771-77f7-43a8-82ac-5b302a1e2e3f
+DEBUG 2019-10-20 21:37:34,690 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f24cddc4-513c-4ffb-9680-83fd23d54a35
+WARN  2019-10-20 21:37:46,950 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:37:46,953 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:37:46,955 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:37:46,957 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:37:46,960 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 765c0771-77f7-43a8-82ac-5b302a1e2e3f
+DEBUG 2019-10-20 21:37:47,386 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"54758178-5df7-4710-91c8-7999b7c80db0","IpAddress":"192.168.1.43","TenantId":null,"UserId":4,"ConnectTime":"2019-10-20T21:37:47.386167+07:00","Properties":{}}
+DEBUG 2019-10-20 21:37:47,391 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 54758178-5df7-4710-91c8-7999b7c80db0
+DEBUG 2019-10-20 21:39:10,278 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 54758178-5df7-4710-91c8-7999b7c80db0
+WARN  2019-10-20 21:39:16,592 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:16,595 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:16,598 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:16,600 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,272 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,275 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,277 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,280 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,280 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,286 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,287 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,290 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,307 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:20,313 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:39:20,419 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"4049bc54-7d35-4444-986a-2bc34bcf0a83","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-20T21:39:20.4195252+07:00","Properties":{}}
+DEBUG 2019-10-20 21:39:20,423 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 4049bc54-7d35-4444-986a-2bc34bcf0a83
+DEBUG 2019-10-20 21:39:21,340 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 4049bc54-7d35-4444-986a-2bc34bcf0a83
+WARN  2019-10-20 21:39:21,356 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,358 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,360 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,363 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,363 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,366 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,367 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,369 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,371 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:21,376 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:25,584 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:25,586 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:25,591 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:25,595 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:39:26,507 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"efa09ebc-31d0-4491-9804-ed86b14127d5","IpAddress":"192.168.1.43","TenantId":null,"UserId":4,"ConnectTime":"2019-10-20T21:39:26.5074746+07:00","Properties":{}}
+DEBUG 2019-10-20 21:39:26,510 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: efa09ebc-31d0-4491-9804-ed86b14127d5
+WARN  2019-10-20 21:39:43,894 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:43,897 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:43,900 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:39:43,903 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:39:44,146 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2983be50-dcde-44cb-bf85-645268952a9f","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:39:44.146866+07:00","Properties":{}}
+DEBUG 2019-10-20 21:39:44,163 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2983be50-dcde-44cb-bf85-645268952a9f
+DEBUG 2019-10-20 21:40:09,892 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: efa09ebc-31d0-4491-9804-ed86b14127d5
+DEBUG 2019-10-20 21:40:31,426 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2983be50-dcde-44cb-bf85-645268952a9f
+WARN  2019-10-20 21:40:31,448 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:31,451 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:31,453 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:31,456 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:40:31,758 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c82ab2cf-1345-489d-bd38-a732e1ed5093","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:40:31.7586147+07:00","Properties":{}}
+DEBUG 2019-10-20 21:40:31,764 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c82ab2cf-1345-489d-bd38-a732e1ed5093
+DEBUG 2019-10-20 21:40:35,448 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c82ab2cf-1345-489d-bd38-a732e1ed5093
+WARN  2019-10-20 21:40:42,362 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:42,364 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:42,367 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:42,369 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:54,943 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:54,946 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:54,949 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:40:54,951 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:40:55,389 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7365625a-1e6e-4e1a-b407-4e13a30cc520","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:40:55.3894+07:00","Properties":{}}
+DEBUG 2019-10-20 21:40:55,394 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7365625a-1e6e-4e1a-b407-4e13a30cc520
+DEBUG 2019-10-20 21:41:39,345 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7365625a-1e6e-4e1a-b407-4e13a30cc520
+WARN  2019-10-20 21:41:39,360 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:41:39,362 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:41:39,365 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:41:39,368 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:41:39,706 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b000813d-b466-4694-b378-561b8dba229d","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:41:39.7069902+07:00","Properties":{}}
+DEBUG 2019-10-20 21:41:39,710 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b000813d-b466-4694-b378-561b8dba229d
+DEBUG 2019-10-20 21:43:22,094 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b000813d-b466-4694-b378-561b8dba229d
+DEBUG 2019-10-20 21:43:28,317 [38   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-10-20 21:43:28,319 [38   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-20 21:43:28,320 [38   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-20 21:43:28,320 [38   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-10-20 21:43:37,083 [36   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-20 21:43:37,094 [36   ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-10-20 21:43:37,101 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.Web.SoftwareArchitectureWebModule, Project.SoftwareArchitecture.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,101 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.SoftwareArchitectureDataModule, Project.SoftwareArchitecture.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,102 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,102 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,102 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,102 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,102 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,102 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,236 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.SoftwareArchitectureCoreModule, Project.SoftwareArchitecture.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,236 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.SoftwareArchitectureApplicationModule, Project.SoftwareArchitecture.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Project.SoftwareArchitecture.Api.SoftwareArchitectureWebApiModule, Project.SoftwareArchitecture.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,237 [36   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:37,240 [36   ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-10-20 21:43:37,719 [36   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:43:37,719 [36   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:43:37,719 [36   ] o.Configuration.LanguageManagementConfig - Converted SoftwareArchitecture (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:43:37,719 [36   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-20 21:43:38,213 [36   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Project.SoftwareArchitecture.EntityFramework.SoftwareArchitectureDbContext, Project.SoftwareArchitecture.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-20 21:43:39,843 [36   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-20 21:43:39,855 [36   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-20 21:43:39,870 [36   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-20 21:43:39,875 [36   ] Abp.Localization.LocalizationManager     - Initialized localization source: SoftwareArchitecture
+DEBUG 2019-10-20 21:43:39,881 [36   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-20 21:43:39,962 [36   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-20 21:43:40,034 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2019-10-20 21:43:40,034 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-20 21:43:40,040 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.CreatePersonDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.CreateUserDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.PersonDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.UpdatePeopleDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.UpdateUserDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Users.Dto.UserDto
+DEBUG 2019-10-20 21:43:40,041 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Roles.Dto.PermissionDto
+DEBUG 2019-10-20 21:43:40,042 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-20 21:43:40,042 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.MultiTenancy.Dto.EditTenantDto
+DEBUG 2019-10-20 21:43:40,042 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-20 21:43:40,042 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Web.Models.Account.TenantChangeViewModel
+DEBUG 2019-10-20 21:43:40,042 [36   ] Abp.AutoMapper.AbpAutoMapperModule       - Project.SoftwareArchitecture.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-10-20 21:43:41,591 [36   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-10-20 21:43:41,593 [36   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-10-20 21:43:41,593 [36   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-10-20 21:43:41,594 [36   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-10-20 21:43:41,595 [36   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2019-10-20 21:43:41,597 [36   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Project.SoftwareArchitecture.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2019-10-20 21:43:49,803 [47   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:43:49,806 [47   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:43:49,808 [47   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:43:49,810 [47   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:44:04,419 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:44:04,421 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:44:04,427 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:44:04,430 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:44:06,275 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0127f0f8-36cc-439a-950a-4e4f51df70e5","IpAddress":"192.168.1.43","TenantId":null,"UserId":5,"ConnectTime":"2019-10-20T21:44:06.2693201+07:00","Properties":{}}
+DEBUG 2019-10-20 21:44:06,304 [44   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0127f0f8-36cc-439a-950a-4e4f51df70e5
+WARN  2019-10-20 21:45:40,687 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'DangKyKham' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,689 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,691 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuDangKy' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,693 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,694 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'NopPhi' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,698 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBienLai' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,699 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'KhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,701 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuSuDungDichVu' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,703 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLPhieuKhamBenh' in localization source 'SoftwareArchitecture'!
+WARN  2019-10-20 21:45:40,706 [53   ] naries.DictionaryBasedLocalizationSource - Can not find 'QLBenhNhan' in localization source 'SoftwareArchitecture'!
+DEBUG 2019-10-20 21:45:40,783 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c55b8240-8a71-4812-8248-d4e284bf57ab","IpAddress":"192.168.1.43","TenantId":null,"UserId":1,"ConnectTime":"2019-10-20T21:45:40.7839089+07:00","Properties":{}}
+DEBUG 2019-10-20 21:45:40,789 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c55b8240-8a71-4812-8248-d4e284bf57ab
+DEBUG 2019-10-20 21:45:42,148 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c55b8240-8a71-4812-8248-d4e284bf57ab
+DEBUG 2019-10-20 21:46:10,798 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0127f0f8-36cc-439a-950a-4e4f51df70e5

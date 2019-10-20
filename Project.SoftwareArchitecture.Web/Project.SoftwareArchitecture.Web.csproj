@@ -2735,6 +2735,7 @@
     <Content Include="App\Main\views\doctors\index.cshtml" />
     <Content Include="App\Main\views\doctors\phieukhambenh.cshtml" />
     <Content Include="App\Main\views\doctors\sudungdichvu.cshtml" />
+    <Content Include="App\Main\views\tiepnhan\index.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

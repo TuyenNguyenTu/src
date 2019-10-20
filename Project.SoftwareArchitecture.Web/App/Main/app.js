@@ -19,7 +19,7 @@
             $locationProvider.hashPrefix('');
             $urlRouterProvider.otherwise('/');
             $qProvider.errorOnUnhandledRejections(false);
-
+            debug = true;
             if (abp.auth.hasPermission('Pages.Users')) {
                 $stateProvider
                     .state('users', {
@@ -56,7 +56,7 @@
                 $stateProvider
                     .state('ql-benh-nhan', {
                         url: '/ql-benh-nhan',
-                        templateUrl: '/App/Main/views/Test.cshtml',
+                        templateUrl: '/App/Main/views/tiepnhan/index.cshtml',
                         menu: 'QLBenhNhan' 
                     })
                     .state('ql-phieu-dang-ky', {
@@ -91,11 +91,7 @@
                         templateUrl: '/App/Main/views/doctors/phieukhambenh.cshtml',
                         menu: 'QLPhieuKhamBenh' 
                     })
-                    .state('ql-benh-nhan', {
-                        url: '/ql-benh-nhan',
-                        templateUrl: '/App/Main/views/doctors/index.cshtml',
-                        menu: 'QLBenhNhan'
-                    })
+
                     .state('ql-phieu-su-dung-dich-vu', {
                         url: '/ql-phieu-su-dung-dich-vu',
                         templateUrl: '/App/Main/views/doctors/sudungdichvu.cshtml',
