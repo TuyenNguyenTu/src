@@ -101,6 +101,12 @@ namespace Project.SoftwareArchitecture.Web
                         //url: "#users",
                         icon: "fa fa-tag",
                         requiredPermissionName: PermissionNames.Pages_Doctors
+                    ).AddItem(new MenuItemDefinition(
+                        "QLBenhNhan",
+                        L("QLBenhNhan"),
+                        //url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Doctors
                     )))
                 )
                 .AddItem(
@@ -119,7 +125,7 @@ namespace Project.SoftwareArchitecture.Web
                         url: "#/about",
                         icon: "fa fa-info"
                         )
-                );
+                ));
         }
 
         private static ILocalizableString L(string name)

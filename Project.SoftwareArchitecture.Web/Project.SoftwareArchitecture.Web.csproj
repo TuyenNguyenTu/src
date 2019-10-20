@@ -2733,6 +2733,8 @@
     <Content Include="App\Main\views\Test.cshtml" />
     <Content Include="App\Main\views\cashiers\index.cshtml" />
     <Content Include="App\Main\views\doctors\index.cshtml" />
+    <Content Include="App\Main\views\doctors\phieukhambenh.cshtml" />
+    <Content Include="App\Main\views\doctors\sudungdichvu.cshtml" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">

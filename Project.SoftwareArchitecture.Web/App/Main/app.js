@@ -40,15 +40,15 @@
                 $urlRouterProvider.otherwise('/users');
             }
 
-            //if (abp.auth.hasPermission('Pages.Roles')) {
-            //    $stateProvider
-            //        .state('roles', {
-            //            url: '/roles',
-            //            templateUrl: '/App/Main/views/roles/index.cshtml',
-            //            menu: 'Roles' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
-            //        });
-            //    $urlRouterProvider.otherwise('/roles');
-            //}
+            if (abp.auth.hasPermission('Pages.Roles')) {
+                $stateProvider
+                    .state('roles', {
+                        url: '/roles',
+                        templateUrl: '/App/Main/views/roles/index.cshtml',
+                        menu: 'Roles' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    });
+                $urlRouterProvider.otherwise('/roles');
+            }
 
 
             //FOR Menu Tiep benh nhan
@@ -57,17 +57,17 @@
                     .state('ql-benh-nhan', {
                         url: '/ql-benh-nhan',
                         templateUrl: '/App/Main/views/Test.cshtml',
-                        menu: 'QLBenhNhan' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLBenhNhan' 
                     })
                     .state('ql-phieu-dang-ky', {
                         url: '/ql-phieu-dang-ky',
                         templateUrl: '/App/Main/views/Test.cshtml',
-                        menu: 'QLPhieuDangKy' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLPhieuDangKy' 
                     })
                     .state('ql-phieu-su-dung-dich-vu', {
                         url: '/ql-phieu-su-dung-dich-vu',
                         templateUrl: '/App/Main/views/Test.cshtml',
-                        menu: 'QLPhieuSuDungDichVu' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLPhieuSuDungDichVu' 
                     });
                 $urlRouterProvider.otherwise('/about');
             }
@@ -78,7 +78,7 @@
                     .state('ql-bien-lai', {
                         url: '/ql-bien-lai',
                         templateUrl: '/App/Main/views/cashiers/Index.cshtml',
-                        menu: 'QLBienLai' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLBienLai' 
                     });
                 $urlRouterProvider.otherwise('/about');
             }
@@ -88,27 +88,32 @@
                 $stateProvider
                     .state('ql-phieu-kham-benh', {
                         url: '/ql-phieu-kham-benh',
+                        templateUrl: '/App/Main/views/doctors/phieukhambenh.cshtml',
+                        menu: 'QLPhieuKhamBenh' 
+                    })
+                    .state('ql-benh-nhan', {
+                        url: '/ql-benh-nhan',
                         templateUrl: '/App/Main/views/doctors/index.cshtml',
-                        menu: 'QLPhieuKhamBenh' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        menu: 'QLBenhNhan'
                     })
                     .state('ql-phieu-su-dung-dich-vu', {
                         url: '/ql-phieu-su-dung-dich-vu',
-                        templateUrl: '/App/Main/views/doctors/index.cshtml',
-                        menu: 'QLPhieuSuDungDichVu' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                        templateUrl: '/App/Main/views/doctors/sudungdichvu.cshtml',
+                        menu: 'QLPhieuSuDungDichVu' 
                     });
                 $urlRouterProvider.otherwise('/about');
             }
 
 
-            //if (abp.auth.hasPermission('Pages.Tenants')) {
-            //    $stateProvider
-            //        .state('tenants', {
-            //            url: '/tenants',
-            //            templateUrl: '/App/Main/views/tenants/index.cshtml',
-            //            menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
-            //        });
-            //    $urlRouterProvider.otherwise('/tenants');
-            //}
+            if (abp.auth.hasPermission('Pages.Tenants')) {
+                $stateProvider
+                    .state('tenants', {
+                        url: '/tenants',
+                        templateUrl: '/App/Main/views/tenants/index.cshtml',
+                        menu: 'Tenants' //Matches to name of 'Tenants' menu in SoftwareArchitectureNavigationProvider
+                    });
+                $urlRouterProvider.otherwise('/tenants');
+            }
 
             $stateProvider
                 .state('home', {

@@ -21,12 +21,13 @@
                     createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.TiepBenhNhans", "local_offer", "ql-phieu-su-dung-dich-vu")
                 ]),
                 //Menu Thu Ngan
-                createMenuItem(App.localize("Nộp phí"), "Pages.Cashiers", "menu", "", [
+                createMenuItem(App.localize("NopPhi"), "Pages.Cashiers", "menu", "", [
                     createMenuItem(App.localize("QLBienLai"), "Pages.Cashiers", "local_offer", "ql-bien-lai")
                 ]),
                 //Menu bac Si
-                createMenuItem(App.localize("Khám Bệnh"), "Pages.Doctors", "menu", "", [
+                createMenuItem(App.localize("KhamBenh"), "Pages.Doctors", "menu", "", [
                     createMenuItem(App.localize("QLPhieuKhamBenh"), "Pages.Doctors", "local_offer", "ql-phieu-kham-benh"),
+                    createMenuItem(App.localize("QLBenhNhan"), "Pages.Doctors", "local_offer", "ql-benh-nhan"),
                     createMenuItem(App.localize("QLPhieuSuDungDichVu"), "Pages.Doctors", "local_offer", "ql-phieu-su-dung-dich-vu")
                 ]),
 
